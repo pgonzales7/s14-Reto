@@ -1,0 +1,13 @@
+<section class="container py-5 w-50">
+    <section class="card shadow-2-strong" style="border-radius: 1rem">
+    <section class="card-body p-5">
+    <h3>COMPONENTE PADRE</h3>
+    <section class="form-group my-4">
+    <form>
+    <input class="form-control" type="text" name="datos" [(ngModel)]="datos_padre">
+    </form>
+    </section>
+    <app-chijo [mensaje_padre]="datos_padre"></app-chijo>
+    </section>
+    </section>
+</section>
